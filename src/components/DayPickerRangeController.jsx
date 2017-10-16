@@ -855,6 +855,7 @@ export default class DayPickerRangeController extends React.Component {
       showKeyboardShortcuts,
       isRTL,
       weekDayFormat,
+      DayPickerControls
     } = this.props;
 
     const { currentMonth, phrases, visibleDays } = this.state;
@@ -892,6 +893,7 @@ export default class DayPickerRangeController extends React.Component {
         phrases={phrases}
         isRTL={isRTL}
         weekDayFormat={weekDayFormat}
+        DayPickerControls={DayPickerControls}
       />
     );
   }

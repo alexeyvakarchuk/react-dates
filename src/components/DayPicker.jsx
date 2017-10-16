@@ -807,6 +807,11 @@ class DayPicker extends React.Component {
           </div>
 
           {renderCalendarInfo && renderCalendarInfo()}
+
+
+          <div className="DayPicker-controls">
+            {this.props.DayPickerControls}
+          </div>
         </OutsideClickHandler>
       </div>
     );

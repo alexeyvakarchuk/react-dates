@@ -309,6 +309,7 @@ class DateRangePicker extends React.Component {
       isRTL,
       weekDayFormat,
       styles,
+      DayPickerControls
     } = this.props;
     const { dayPickerContainerStyles, isDayPickerFocused, showKeyboardShortcuts } = this.state;
 
@@ -373,6 +374,7 @@ class DateRangePicker extends React.Component {
           isRTL={isRTL}
           firstDayOfWeek={firstDayOfWeek}
           weekDayFormat={weekDayFormat}
+          DayPickerControls={DayPickerControls}
         />
 
         {withFullScreenPortal && (
