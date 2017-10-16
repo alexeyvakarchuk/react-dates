@@ -76,4 +76,7 @@ export default {
   monthFormat: PropTypes.string,
   weekDayFormat: PropTypes.string,
   phrases: PropTypes.shape(getPhrasePropTypes(DateRangePickerPhrases)),
+
+  // custom controls
+  DayPickerControls: PropTypes.element,
 };

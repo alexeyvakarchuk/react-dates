@@ -123,6 +123,20 @@ class DateRangePickerWrapper extends React.Component {
       'initialEndDate',
     ]);
 
+    const DayPickerControls = (
+      <div>
+        <ul>
+          <li>Today</li>
+          <li>Yesterday</li>
+          <li>Last 6 hours</li>
+          <li>Last 12 hours</li>
+          <li>Last 7 days</li>
+          <li>Last 30 days</li>
+        </ul>
+      </div>
+    );
+
+
     return (
       <div>
         <DateRangePicker
@@ -132,6 +146,7 @@ class DateRangePickerWrapper extends React.Component {
           focusedInput={focusedInput}
           startDate={startDate}
           endDate={endDate}
+          DayPickerControls={DayPickerControls}
         />
       </div>
     );

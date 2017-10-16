@@ -80,6 +80,9 @@ const propTypes = forbidExtraProps({
   weekDayFormat: PropTypes.string,
   phrases: PropTypes.shape(getPhrasePropTypes(DayPickerPhrases)),
 
+  // custom controls
+  DayPickerControls: PropTypes.element,
+
   isRTL: PropTypes.bool,
 });
 

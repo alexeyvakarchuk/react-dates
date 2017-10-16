@@ -101,6 +101,7 @@ const defaultProps = {
   monthFormat: 'MMMM YYYY',
   weekDayFormat: 'dd',
   phrases: DateRangePickerPhrases,
+  DayPickerControls: null,
 };
 
 class DateRangePicker extends React.Component {
@@ -309,7 +310,7 @@ class DateRangePicker extends React.Component {
       isRTL,
       weekDayFormat,
       styles,
-      DayPickerControls
+      DayPickerControls,
     } = this.props;
     const { dayPickerContainerStyles, isDayPickerFocused, showKeyboardShortcuts } = this.state;
 

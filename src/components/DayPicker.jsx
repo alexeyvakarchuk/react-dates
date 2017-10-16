@@ -83,6 +83,9 @@ const propTypes = forbidExtraProps({
   monthFormat: PropTypes.string,
   weekDayFormat: PropTypes.string,
   phrases: PropTypes.shape(getPhrasePropTypes(DayPickerPhrases)),
+
+  // custom controls
+  DayPickerControls: PropTypes.element,
 });
 
 export const defaultProps = {
